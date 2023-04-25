@@ -1,0 +1,39 @@
+*{
+  padding: 0px;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+  }
+
+  #Search{
+    width: 300px;
+
+  }
+  button{
+    width: 70px;
+    color:blue;
+    
+  }
+  
+  .image-item {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+  }
+
+  #imageContainer{
+    border: 1px solid black;
+  }
+  #imageContainer:hover{
+    cursor: pointer;
+  }
+
+
+  #imContain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+  
+  }
